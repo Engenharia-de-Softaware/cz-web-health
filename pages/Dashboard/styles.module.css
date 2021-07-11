@@ -1,0 +1,96 @@
+.container {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container header {
+
+  font-family: 'Nokora', serif;
+  font-weight: 700;
+  
+  width: 100vw;
+  height: 180px;
+
+  background-color: #FEBDB1;
+  background-image: linear-gradient(to bottom, #FEBDB1, #FF5555);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 2%;
+
+  text-align: center;
+}
+
+.container header h1 {
+  margin-bottom: 75px;
+  margin-left: 350px;
+}
+
+.title {
+  margin-bottom: 75px;
+  margin-right: 100px;
+  font-family: 'Nokora', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title div {
+  color: #000000;
+  
+  width: 160px;
+  height: 42px;
+  margin-right: 10px;
+
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  padding-bottom: 250px;
+}
+
+.containerForm h2 {
+  font-family: 'Roboto';
+  margin-bottom: 32px;
+}
+
+.containerForm button {
+  margin-top: 32px;
+  width: 220px;
+  height: 42px;
+
+  color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-color: #DB3828;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 33px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  transition: background-color 1s;
+}
+
+.containerForm button:hover {
+  background-color: #f68980;
+}
